@@ -1,6 +1,6 @@
 const app = require('./__support__/setup')
 
-let graphql
+let graphql;
 
 beforeAll(async () => {
   const container = await app.setUp()
